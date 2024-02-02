@@ -1,0 +1,134 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.logo{
+    width: 125px;
+    height: 75px;
+    margin-top: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    background-color:darkblue;
+    color: white;
+    }
+
+footer{
+    background-color: #333;
+}
+
+.logo{
+    background-color: blue;
+    margin-left: 125px;
+}
+  
+.phone{
+   margin:0 10px 0;
+  }
+  
+  .destaque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .destaque img{
+    width:196px;
+    height: 163px;
+  }
+  
+  .center img{
+    width: 325px;
+    height: 212px;
+  }
+  
+  .center{
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .box{
+    margin-left:175px ;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li:hover > .submenu-content {
+    display: block;
+  }
+  
+  .submenu-content {
+    display: none;
+    position: absolute;
+    background-color: #0b0072;
+    border: 1px solid #ccc;
+  }
+
+  .submenu-content li a {
+    padding: 10px 20px;
+    color: #ffffff;
+  }
+  
+  .submenu-content li a:hover {
+    background-color: #ddd;
+  }
+
+  .lowMenu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+  }
+  
+  .lowMenu li{
+    padding: 10px;
+  }
+
+  .lowMenu a {
+    text-decoration: none;
+    color: grey;
+  }
+
+  .lowMenu a:hover{
+    color: white;
+  }
+
+  h1, p{
+    color: grey;
+  }
+
+  .lateral{
+    margin-top: 25px;
+  }
+
+  .slider-container {
+    overflow: hidden;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slide img {
+    width: 894px;
+    height:290px;
+  }
